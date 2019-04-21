@@ -1,5 +1,5 @@
 const INPUT =
-  "ls -a aoption -optionalone -moreoption anotheroption paramalone --verbose";
+  "ls -a aoption -optionalone -moreoption anotheroption paramalone --verbose verboseoption -- shouldbeparam --shouldalsobeparam -yesparam";
 
 const inputArray = INPUT.split(" ");
 const len = inputArray.length;
